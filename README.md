@@ -8,8 +8,18 @@ accessing, searching, and updating data using key–value pairs.
 
 ## Theory
 
-A dictionary in Python is a built-in data type used to store data in the form of **key–value pairs**. Each key acts like a label,
-and each value is the data associated with that label. Dictionaries are written using curly braces {} with keys and values separated by a colon.
+A dictionary in Python is a powerful built-in data type used to store and manage data as **key–value pairs**. In a dictionary, each **key** serves as a unique 
+identifier (or label), and each **value** is the piece of data associated with that key. This structure makes dictionaries especially useful when you want to quickly look up, 
+update, or organize information.
+
+Dictionaries are defined using **curly braces `{}`**, where each key is followed by a colon `:` and its corresponding value. Multiple key–value pairs are separated by commas. 
+For example, a dictionary can store details like names and ages, product IDs and prices, or words and their meanings.
+
+One important feature of dictionaries is that **keys must be unique and immutable** (such as strings, numbers, or tuples), while **values can be of any data type** and can be changed.
+Dictionaries are also **unordered collections** (though in modern Python versions, they preserve insertion order), meaning items are accessed by their keys rather than by position.
+
+Overall, dictionaries provide a fast and flexible way to store structured data, making them one of the most commonly used data types in Python.
+
 
 ### Key Features of Dictionaries
 
