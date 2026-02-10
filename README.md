@@ -49,35 +49,56 @@ Dictionaries are very useful when data must be stored with identifiers. For exam
 * Mark sheets
 They make searching and updating data easy and efficient compared to lists.
 
-## Algorithms (Problem Statements Only)
+## Algorithms:
+- Start
+- Create dictionaries using {}
+- Handle duplicate keys (latest value retained automatically)
+- Update values using dictionary[key] = value
+- Retrieve values safely using dictionary.get(key, default)
+- Accept user input using input()
+- Validate login using if dictionary.get(key) == value
+- Find the highest value using max(dictionary, key=dictionary.get)
+- Display results using print()
+- Stop
 
-### Problem Statement 1: Unique Event Participants
-1. Create a list of participant names containing duplicates.
-2. Convert the list into a set.
-3. Display the set to show only unique participants.
+- ✅ Algorithm – Problem 1
+- (Create dictionary and update value)
+- Start
+- Create a dictionary products with product names as keys and prices as values
+- Display the original dictionary
+- Update the value of key "Book" to 65
+- Display the updated dictionary
+- Stop
 
-### Problem Statement 2: Common Elective Subjects
-1. Create three sets for subjects chosen by students.
-2. Use intersection operation to find common subjects.
-3. Display the common subjects.
+- ✅ Algorithm – Problem 2
+- (Search student marks using .get() method)
+- Start
+- Create a dictionary students_marks with student names as keys and marks as values
+- Read the student name from the user
+- Use get() method to retrieve marks
+- If the name exists, display the marks
+- Else, display "Student not found"
+- Stop
 
-### Problem Statement 3: Students in Sports Clubs
-1. Create two sets for cricket and football club members.
-2. Use intersection to find students in both clubs.
-3. Use symmetric difference to find students in only one club.
-4. Display the results.
+- ✅ Algorithm – Problem 3
+- (User login validation using dictionary)
+- Start
+- Create a dictionary users with usernames as keys and passwords as values
+- Read username and password from the user
+- Compare entered password with the value stored for the username
+- If both match, display "Login Successful"
+- Else, display "Login Failed"
+- Stop
 
-### Problem Statement 4: Absent Students
-1. Create a set of all students.
-2. Create a set of present students.
-3. Use set difference to find absent students.
-4. Display the absent students.
- 
-### Problem Statement 5: Remove Invalid Course Code
-1. Create a set of valid course codes.
-2. Identify the discontinued code.
-3. Use discard() to remove it from the set.
-4. Display the updated set.
+- ✅ Algorithm – Problem 4
+- (Find topper from marks dictionary)
+- Start
+- Create a dictionary marks with student names as keys and marks as values
+- Use max() function with key=marks.get to find highest marks
+- Store the topper name
+- Display the topper name and their marks
+- Stop
+
 
 ## Conclusion
 
