@@ -61,8 +61,7 @@ They make searching and updating data easy and efficient compared to lists.
 - Display results using print()
 - Stop
 
-- ✅ Algorithm – Problem 1
-- (Create dictionary and update value)
+ Problem 1:Create dictionary and update value)
 - Start
 - Create a dictionary products with product names as keys and prices as values
 - Display the original dictionary
@@ -70,8 +69,7 @@ They make searching and updating data easy and efficient compared to lists.
 - Display the updated dictionary
 - Stop
 
-- ✅ Algorithm – Problem 2
-- (Search student marks using .get() method)
+ Problem 2: Search student marks using .get() method)
 - Start
 - Create a dictionary students_marks with student names as keys and marks as values
 - Read the student name from the user
@@ -80,8 +78,7 @@ They make searching and updating data easy and efficient compared to lists.
 - Else, display "Student not found"
 - Stop
 
-- ✅ Algorithm – Problem 3
-- (User login validation using dictionary)
+Problem 3: User login validation using dictionary)
 - Start
 - Create a dictionary users with usernames as keys and passwords as values
 - Read username and password from the user
@@ -90,8 +87,7 @@ They make searching and updating data easy and efficient compared to lists.
 - Else, display "Login Failed"
 - Stop
 
-- ✅ Algorithm – Problem 4
-- (Find topper from marks dictionary)
+ Problem 4: Find topper from marks dictionary)
 - Start
 - Create a dictionary marks with student names as keys and marks as values
 - Use max() function with key=marks.get to find highest marks
