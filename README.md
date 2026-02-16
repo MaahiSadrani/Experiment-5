@@ -50,15 +50,39 @@ Dictionaries are very useful when data must be stored with identifiers. For exam
 They make searching and updating data easy and efficient compared to lists.
 
 ## Algorithms:
+1: Create and Print Dictionary
 - Start
-- Create dictionaries using {}
-- Handle duplicate keys (latest value retained automatically)
-- Update values using dictionary[key] = value
-- Retrieve values safely using dictionary.get(key, default)
-- Accept user input using input()
-- Validate login using if dictionary.get(key) == value
-- Find the highest value using max(dictionary, key=dictionary.get)
-- Display results using print()
+- Create a dictionary with key-value pairs (Brand, Model, Year).
+- Print the dictionary.
+- Stop
+
+2: Retrieve Value from Dictionary
+- Start
+- Create a dictionary.
+- Access the value using the key (e.g., "Brand").
+- Print the value.
+- Stop
+
+3: Check Duplicate Keys
+- Start
+- Create a dictionary with duplicate keys.
+- Observe that the latest value replaces the previous one.
+- Print the dictionary.
+- Find the length using len().
+- Stop
+
+ 4: Add/Update Key-Value Pair
+- Start
+- Create a dictionary.
+- Add a new key-value pair using dict[key] = value.
+- Print the updated dictionary.
+- Stop
+
+5: Remove Key from Dictionary
+- Start
+- Create a dictionary.
+- Remove a key using pop(key).
+- Print the updated dictionary.
 - Stop
 
  Problem 1:Create dictionary and update value)
